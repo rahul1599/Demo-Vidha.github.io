@@ -694,7 +694,71 @@ div#preloader {
   color: #fff;
 }
 
+/*----------------- about ----------------*/
 
+.about1{
+padding-top: 45px;
+color : rgb(232, 18, 18);
+text-align: justify;
+padding-left: 10px;
+margin-top: 30px;
+font-weight: bold;
+}
+.about2{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  padding-left: 10px;
+}
+.about3{
+  height: 301px;
+  padding-top: 40px;
+  margin-left: 34px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+
+/*----------------- about ----------------*/
+
+/*----------------- platform ----------------*/
+
+.platform{
+  margin-left: 40px;
+  height: 195px;
+}
+.platform1{
+  font-size: 22px;
+  margin-left: 103px;
+}
+
+/*----------------- platform ----------------*/
+
+
+/*------------------banner--------------------*/
+
+.bannerback{
+  background: url(../img/background/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 350px;
+  width: 100%;
+  /* padding: 120px 0 60px; */
+}
+
+/*-------------------banner-------------------*/
+
+/*------------------banner1--------------------*/
+
+.list{
+  font-size: 18px;
+  color: black;
+  margin-left: 35px;
+
+}
+
+/*------------------banner1-------------------*/
 
 /*----------------------------------------*/
 
