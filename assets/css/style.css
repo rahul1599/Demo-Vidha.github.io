@@ -713,7 +713,7 @@ font-weight: bold;
 .about3{
   height: 301px;
   padding-top: 40px;
-  margin-left: 34px;
+  margin-left: 6px;
   margin-bottom: 50px;
   margin-top: 30px;
 }
@@ -724,12 +724,12 @@ font-weight: bold;
 /*----------------- platform ----------------*/
 
 .platform{
-  margin-left: 40px;
+  margin-left: 10px;
   height: 195px;
 }
 .platform1{
-  font-size: 22px;
-  margin-left: 103px;
+  font-size: 20px;
+  margin-left: 96px;
 }
 
 /*----------------- platform ----------------*/
