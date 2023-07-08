@@ -43,7 +43,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="">Our Story</a></li>
@@ -80,9 +80,9 @@
           </li>
          
           <li><a href="blog.html">Gallery</a></li>
-          <li><a href="">Career</a></li>
+          <li><a href="career.html">Career</a></li>
          
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -148,7 +148,7 @@
                   <div class="col-md-8 align-self-center">
                       <div class="contact-form">
                           <div class="contact-form-header">
-                              <h2>Reach Out</h2>
+                              <h2 class="text-center">How can we help you ? Let us know</h2>
                               <p> </p>
                           </div>
                           <form method="post" action="" id="contact-form">
@@ -167,8 +167,24 @@
                                   </div>
                               </div>
                               <div class="form-group">
-                                  <input type="email" class="form-control" name="email"
-                                      placeholder="Your Email" required>  
+                                <input type="text" class="form-control" name="yourcompany"
+                                    placeholder="Your Company" required>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Your Email" required>  
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                </div>
                               </div>
                               <div class="form-group">
                                   <textarea name="message" cols="30" rows="5" class="form-control"
