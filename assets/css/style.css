@@ -1,7 +1,7 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 html,
 body {
   height: 100%;
@@ -57,7 +57,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
-  margin: 0 0 15px;
+  margin: 10px 0 15px;
   color: #444;
   font-weight: 500;
 }
@@ -272,14 +272,14 @@ div#preloader {
 }
 
 #header .logo img {
-  /* padding: 0; */
-  /* margin: 0; */
+  padding: 0; 
+  margin: 0;
   max-height: 75px;
 }
 
 @media (max-width: 768px) {
   #header {
-    height: 64px;
+    height: 85px;
     background: rgba(0, 0, 0, 0.8);
   }
 
@@ -319,7 +319,7 @@ div#preloader {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding: 20px;
 }
 
 .navbar ul {
@@ -695,20 +695,34 @@ div#preloader {
 }
 
 /*----------------- about ----------------*/
+.about_head{
+  padding-top: 45px;
+  color : rgb(232, 18, 18);
+  padding-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
 
+}
+.about_Para{
+  color: #000;
+  font-size: 18px;
+  font-family: 'Raleway';
+  font-weight: 400;
+}
 .about1{
-padding-top: 45px;
-color : rgb(232, 18, 18);
-text-align: justify;
-padding-left: 10px;
-margin-top: 30px;
-font-weight: bold;
+  padding-top: 45px;
+  color : rgb(232, 18, 18);
+
+  padding-left: 10px;
+  margin-top: 30px;
+  font-weight: 600;
 }
 .about2{
   font-size: 18px;
   font-weight: 400;
-  text-align: justify;
+ 
   padding-left: 10px;
+  color: #fff;
 }
 .about3{
   height: 301px;
@@ -716,6 +730,35 @@ font-weight: bold;
   margin-left: 6px;
   margin-bottom: 50px;
   margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .about_head{
+    padding-top: 20px;
+    color : rgb(232, 18, 18);
+    padding-left: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  .about_Para{
+    color: #000;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 400;
+  }
+  .about1{
+    font-size:32px;
+    text-align:center;
+    
+  }
+  .about2{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Raleway';
+    text-align:center;
+  }
+  
 }
 
 
@@ -738,7 +781,7 @@ font-weight: bold;
 /*------------------banner--------------------*/
 
 .bannerback{
-  background: url(../img/background/banner.jpg);
+  background: url(../img/background/banner_nivesh.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -1522,4 +1565,56 @@ breadcrumb css
   .slider-content {
     padding: 0;
   }
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
 }
