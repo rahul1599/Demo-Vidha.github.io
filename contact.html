@@ -12,9 +12,6 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  
-  <!--------fontaewsome icon ------->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
@@ -40,13 +37,14 @@
 
       <div class="logo">
         
-        <a href="index.html"><img src="assets/img/logo.png" alt="Nivesh_logo" ></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="" 
+          ></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li class="dropdown"><a href="about.html"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="">Our Story</a></li>
               <li><a href="#">Leadership</a></li>
@@ -64,7 +62,7 @@
               <li><a href="#">Our Team</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="">Portfolio Management</a></li>
               <li><a href="#">Market Insights</a></li>
@@ -72,7 +70,7 @@
               <li><a href="#">Investment Advisory</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="stratergies.html"><span>Stratergies</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Stratergies</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="">Equity Oriented</a></li>
               <li><a href="#">Risk Management</a></li>
@@ -81,7 +79,7 @@
             </ul>
           </li>
          
-          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Gallery</a></li>
           <li><a href="career.html">Career</a></li>
          
           <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
@@ -91,51 +89,131 @@
 
     </div>
   </header>
-  
   <!-- End Header -->
 
-  <section class="single-page-title-area" data-background="assets/img/background/banner_nivesh.jpg" style="background-image: url(assets/img/background/banner_nivesh.jpg);">
+  <!-- ======= hero Section ======= -->
 
-		<div class="auto-container">
-
-			<div class="row">
-
-				<div class="col-lg-8 col-md-8 col-sm-12 col-12">
-
-					<div class="single-page-title">
-
-						<h6>Ramarut Packaging pvt. ltd.</h6>
-
-						<span></span>
-
-						<h2>Best Industry solution</h2>
-
-					</div>
-
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-12 col-12">
-
-					<!--<ol class="breadcrumb">
-
-					  <li class="breadcrumb-item"><a href="#">Home</a></li>
-
-					  <li class="breadcrumb-item active">About us</li>
-
-					</ol>-->
-
-				</div>
-
-			</div>
-
-			<!-- end row-->
-
-		</div>
-
-	</section>
-  
-
+   <!-- breadcrumb -->
+   <div class="site-breadcrumb">
+    <div class="site-breadcrumb-wrapper" style="background: url('assets/img/contact/contactpage.jpg');background-repeat: no-repeat;background-size: cover;">
+        <div class="container">
+            <h2 class="breadcrumb-title">Contact Us</h2>
+            <!-- <ul class="breadcrumb-menu">
+                <li><a href="index.html"><i class="far fa-home"></i> Home</a></li>
+                <li class="active">Contact Us</li>
+            </ul> -->
+        </div>
+    </div>
+</div>
+<!-- breadcrumb end -->
  
+  <!-- End Hero Section -->
+
+  <main id="main">
+    <div class="contact-area py-120">
+      <div class="container">
+          <div class="contact-wrapper">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="contact-content">
+                          <div class="contact-info">
+                              <div class="contact-info-icon">
+                                <i class="bi bi-geo-alt"></i>
+                              </div>
+                              <div class="contact-info-content">
+                                  <h5>Address</h5>
+                                  <p>Gwalior, Madhya Pradesh, 474012</p>
+                              </div>
+                          </div>
+                          <div class="contact-info">
+                              <div class="contact-info-icon">
+                                  <i class="bi bi-phone"></i>
+                              </div>
+                              <div class="contact-info-content">
+                                  <h5>Call Us</h5>
+                                  <p><a href="#"><span class="text-dark">9862657412</span></a></p>
+                              </div>
+                          </div>
+                          <div class="contact-info">
+                              <div class="contact-info-icon">
+                                  <i class="bi bi-envelope"></i>
+                              </div>
+                              <div class="contact-info-content">
+                                  <h5>Email Us</h5>
+                                  <p><a href="#"><span class="text-dark">info02mail.com</span></a></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-8 align-self-center">
+                      <div class="contact-form">
+                          <div class="contact-form-header">
+                              <h2 class="text-center">How can we help you ? Let us know</h2>
+                              <p> </p>
+                          </div>
+                          <form method="post" action="" id="contact-form">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <input type="text" class="form-control" name="name"
+                                              placeholder="Your Name" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                      <input type="tel"  id="phone" name="phone"  class="form-control" name="phone"
+                                               placeholder="Phone Number" required>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="yourcompany"
+                                    placeholder="Your Company" required>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" name="email"
+                                        placeholder="Your Email" required>  
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                  <textarea name="message" cols="30" rows="5" class="form-control"
+                                      placeholder="Write Your Message"></textarea>
+                              </div>
+                              <button type="submit" class="btn-send-message scrollto animate__animated animate__fadeInUp">Send
+                                  Message <i class="far fa-paper-plane"></i></button>
+                              <div class="col-md-12 mt-3">
+                                  <div class="form-messege text-success"></div>
+                              </div>
+                          </form>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- end contact area -->
+    <br><br>
+
+    <div class="container-fluid">
+       <!-- Start Map -->
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <!-- End Map -->
+    </div>
+
+  </main><!-- End #main -->
+
   <!-- ======= Footer ======= -->
   <footer>
     <div class="footer-area">
@@ -145,11 +223,10 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <a href="index.html"><img src="assets/img/logo.png" alt="Nivesh_logo" ></a> 
+                  <h2><span>e</span>Business</h2>
                 </div>
-                <p>
-                   Your Partner in Liquidity and Systematic Trading Strategies.
-                </p>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -161,7 +238,7 @@
                     <li>
                       <a href="#"><i class="bi bi-instagram"></i></a>
                     </li>
-                    <li>f
+                    <li>
                       <a href="#"><i class="bi bi-linkedin"></i></a>
                     </li>
                   </ul>
